@@ -7,7 +7,7 @@
 1. Clone this repo locally
 2. In Azure, create **Azure OpenAI Service** resource. After deploying the model, note the model name, you'll need it for the **AOAI_DEPLOYMENTID** environment variable below.
 3. Install the **Polyglot Notebooks** extension in Visual Studio Code.
-2. Configure environment variables.
+2. Configure environment variables
 
     For more details on how to get these variables, see the [Azure OpenAI documentation](https://learn.microsoft.com/azure/cognitive-services/openai/quickstart?tabs=command-line&pivots=programming-language-csharp#retrieve-key-and-endpoint).
 
