@@ -6,13 +6,15 @@
 
 **Azure OpenAI Service** - For more details on how to get these variables, see the [Azure OpenAI documentation](https://learn.microsoft.com/azure/cognitive-services/openai/quickstart?tabs=command-line&pivots=programming-language-csharp#retrieve-key-and-endpoint).
 
+### Configure environment variables.
+
+Create the following environment variables:
+
 **AOAI_ENDPOINT** - The endpoint for your Azure OpenAI Service resource.
 
 **AOAI_KEY** - The access key for your Azure OpenAI Service resource.
 
 **AOAI_DEPLOYMENTID** - The name of your model deployment (e.g. davinci-003-deployment
-
-
 
 ## Prompt Types
 
