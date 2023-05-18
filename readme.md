@@ -1,4 +1,4 @@
-# Azure OpenAI C# Prompt Samples
+# Azure OpenAI C# Prompt Engineering Samples
 
  This project is a port of the [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/chatgpt-prompt-eng) samples from OpenAI / Python to C# / Azure-OpenAI. It uses [Interactive Notebooks for C#](https://github.com/dotnet/csharp-notebooks), [Azure OpenAI service](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.openai-readme?view=azure-dotnet-preview), and the [Azure OpenAI client library for .NET](https://www.nuget.org/packages/Azure.AI.OpenAI).
 
