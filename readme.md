@@ -4,17 +4,25 @@
 
 ## Prerequisites
 
-**Azure OpenAI Service** - For more details on how to get these variables, see the [Azure OpenAI documentation](https://learn.microsoft.com/azure/cognitive-services/openai/quickstart?tabs=command-line&pivots=programming-language-csharp#retrieve-key-and-endpoint).
+1. Clone this repo locally
+2. In Azure, create **Azure OpenAI Service** resource. After deploying the model, note the model name, you'll need it for the **AOAI_DEPLOYMENTID** environment variable below.
+3. Install the **Polyglot Notebooks** extension in Visual Studio Code.
+2. Configure environment variables.
 
-### Configure environment variables.
+    For more details on how to get these variables, see the [Azure OpenAI documentation](https://learn.microsoft.com/azure/cognitive-services/openai/quickstart?tabs=command-line&pivots=programming-language-csharp#retrieve-key-and-endpoint).
 
-Create the following environment variables:
 
-**AOAI_ENDPOINT** - The endpoint for your Azure OpenAI Service resource.
+    Create the following environment variables:
 
-**AOAI_KEY** - The access key for your Azure OpenAI Service resource.
+    **AOAI_ENDPOINT** - The endpoint for your Azure OpenAI Service resource.
 
-**AOAI_DEPLOYMENTID** - The name of your model deployment (e.g. davinci-003-deployment
+    **AOAI_KEY** - The access key for your Azure OpenAI Service resource.
+
+    **AOAI_DEPLOYMENTID** - The name of your model deployment (e.g. my-davinci-003-deployment)
+
+## Running the Notebooks
+
+Open a Jupyter Notebook file (links below) in VS Code. You can run and change the code.
 
 ## Prompt Types
 
