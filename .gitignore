@@ -1,0 +1,5 @@
+.env
+.env_x
+.ipynb_checkpoints
+llama_index
+webstorage_Surface*
